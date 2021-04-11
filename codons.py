@@ -4,7 +4,7 @@
 # Use a 'for' loop
 
 dna = 'ATAGCGAATATCTCTCATGAGAGGGAA'
-for i in range(0, len(dna)-2,3):
+for i in range(0, len(dna),3):
 	print(dna[i:i+3])
 
 
